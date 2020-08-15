@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Reference for docker and docker compose installation
+#https://docs.docker.com/engine/install/ubuntu/
 sudo apt-get update
 
 echo "Y" | sudo apt-get install \
