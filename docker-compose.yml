@@ -1,5 +1,6 @@
 version: '3'
 
+#reference https://github.com/bitnami/bitnami-docker-sonarqube
 services:
   postgresql:
     image: 'docker.io/bitnami/postgresql:10-debian-10'
