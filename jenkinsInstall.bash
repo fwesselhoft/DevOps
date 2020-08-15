@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#reference: https://www.jenkins.io/doc/book/installing/
 sudo apt-get update
 echo "Y" | sudo apt install openjdk-8-jdk
 wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
